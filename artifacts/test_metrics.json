@@ -1,0 +1,299 @@
+{
+  "static_all_classes": {
+    "samples": 86,
+    "classes": [
+      "can",
+      "foam",
+      "plastic",
+      "plastic bottle",
+      "unknow"
+    ],
+    "global_class_mapping": [
+      "can",
+      "foam",
+      "plastic",
+      "plastic bottle",
+      "unknow"
+    ],
+    "threshold": 0.5,
+    "accuracy": 0.7627906976744186,
+    "exact_match_accuracy": 0.3953488372093023,
+    "precision": 0.7448661475287454,
+    "recall": 0.8768125960061444,
+    "macro_f1": 0.8037958340570087,
+    "f1": 0.8037958340570087,
+    "per_class_precision": {
+      "can": 0.7105263157894737,
+      "foam": 0.6712328767123288,
+      "plastic": 0.8488372093023255,
+      "plastic bottle": 0.6842105263157895,
+      "unknow": 0.8095238095238095
+    },
+    "per_class_recall": {
+      "can": 0.8709677419354839,
+      "foam": 0.875,
+      "plastic": 1.0,
+      "plastic bottle": 0.6666666666666666,
+      "unknow": 0.9714285714285714
+    },
+    "per_class_f1": {
+      "can": 0.782608695652174,
+      "foam": 0.7596899224806202,
+      "plastic": 0.9182389937106918,
+      "plastic bottle": 0.6753246753246753,
+      "unknow": 0.8831168831168831
+    },
+    "confusion_matrices": {
+      "can": [
+        [
+          44,
+          11
+        ],
+        [
+          4,
+          27
+        ]
+      ],
+      "foam": [
+        [
+          6,
+          24
+        ],
+        [
+          7,
+          49
+        ]
+      ],
+      "plastic": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          73
+        ]
+      ],
+      "plastic bottle": [
+        [
+          35,
+          12
+        ],
+        [
+          13,
+          26
+        ]
+      ],
+      "unknow": [
+        [
+          0,
+          16
+        ],
+        [
+          2,
+          68
+        ]
+      ]
+    },
+    "architecture": "efficientnet_b2",
+    "split": "test"
+  },
+  "naive_sequential": {
+    "samples": 86,
+    "classes": [
+      "can",
+      "foam",
+      "plastic",
+      "plastic bottle",
+      "unknow"
+    ],
+    "global_class_mapping": [
+      "can",
+      "foam",
+      "plastic",
+      "plastic bottle",
+      "unknow"
+    ],
+    "threshold": 0.5,
+    "accuracy": 0.7093023255813954,
+    "exact_match_accuracy": 0.13953488372093023,
+    "precision": 0.6737535099719203,
+    "recall": 0.9610799952735437,
+    "macro_f1": 0.7859820760315277,
+    "f1": 0.7859820760315277,
+    "per_class_precision": {
+      "can": 0.5625,
+      "foam": 0.6588235294117647,
+      "plastic": 0.8488372093023255,
+      "plastic bottle": 0.4868421052631579,
+      "unknow": 0.8117647058823529
+    },
+    "per_class_recall": {
+      "can": 0.8709677419354839,
+      "foam": 1.0,
+      "plastic": 1.0,
+      "plastic bottle": 0.9487179487179487,
+      "unknow": 0.9857142857142858
+    },
+    "per_class_f1": {
+      "can": 0.6835443037974683,
+      "foam": 0.7943262411347518,
+      "plastic": 0.9182389937106918,
+      "plastic bottle": 0.6434782608695652,
+      "unknow": 0.8903225806451613
+    },
+    "confusion_matrices": {
+      "can": [
+        [
+          34,
+          21
+        ],
+        [
+          4,
+          27
+        ]
+      ],
+      "foam": [
+        [
+          1,
+          29
+        ],
+        [
+          0,
+          56
+        ]
+      ],
+      "plastic": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          73
+        ]
+      ],
+      "plastic bottle": [
+        [
+          8,
+          39
+        ],
+        [
+          2,
+          37
+        ]
+      ],
+      "unknow": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          69
+        ]
+      ]
+    },
+    "architecture": "efficientnet_b2",
+    "split": "test"
+  },
+  "memory_replay": {
+    "samples": 86,
+    "classes": [
+      "can",
+      "foam",
+      "plastic",
+      "plastic bottle",
+      "unknow"
+    ],
+    "global_class_mapping": [
+      "can",
+      "foam",
+      "plastic",
+      "plastic bottle",
+      "unknow"
+    ],
+    "threshold": 0.5,
+    "accuracy": 0.7511627906976744,
+    "exact_match_accuracy": 0.3488372093023256,
+    "precision": 0.7071641439771709,
+    "recall": 0.9559517901453386,
+    "macro_f1": 0.8102325182428591,
+    "f1": 0.8102325182428591,
+    "per_class_precision": {
+      "can": 0.627906976744186,
+      "foam": 0.6666666666666666,
+      "plastic": 0.8488372093023255,
+      "plastic bottle": 0.5806451612903226,
+      "unknow": 0.8117647058823529
+    },
+    "per_class_recall": {
+      "can": 0.8709677419354839,
+      "foam": 1.0,
+      "plastic": 1.0,
+      "plastic bottle": 0.9230769230769231,
+      "unknow": 0.9857142857142858
+    },
+    "per_class_f1": {
+      "can": 0.7297297297297297,
+      "foam": 0.8,
+      "plastic": 0.9182389937106918,
+      "plastic bottle": 0.7128712871287128,
+      "unknow": 0.8903225806451613
+    },
+    "confusion_matrices": {
+      "can": [
+        [
+          39,
+          16
+        ],
+        [
+          4,
+          27
+        ]
+      ],
+      "foam": [
+        [
+          2,
+          28
+        ],
+        [
+          0,
+          56
+        ]
+      ],
+      "plastic": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          73
+        ]
+      ],
+      "plastic bottle": [
+        [
+          21,
+          26
+        ],
+        [
+          3,
+          36
+        ]
+      ],
+      "unknow": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          69
+        ]
+      ]
+    },
+    "architecture": "efficientnet_b2",
+    "split": "test"
+  }
+}
